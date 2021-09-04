@@ -28,15 +28,15 @@
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "6"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "eb06d4abfb49dc3eeb1aeb98ae0f581e"
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
-      "value": "7351948 20516707 23122162 500346573"
+      "value": "1401477467 1248974748"
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
@@ -45,7 +45,7 @@
     },
     "UPDATE_CHANNEL": {
       "description": "For Force Subscribe. Paste your Update channel USERNAME (without @)..",
-      "value": "",
+      "value": "MyTestBotZ",
       "required": false
     },
     "DEF_THUMB_NAIL_VID_S": {
