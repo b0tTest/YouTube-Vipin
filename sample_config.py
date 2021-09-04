@@ -36,3 +36,12 @@ class Config(object):
     PROCESS_MAX_TIMEOUT = 3600
     # watermark file
     DEF_WATER_MARK_FILE = ""
+    
+    
+    ##############################
+    #Super users to broadcast messages & fetch subscribers count
+    SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
+
+    # Database URI
+    DB_URI = os.environ.get("DATABASE_URL", "")
+
