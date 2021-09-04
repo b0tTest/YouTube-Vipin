@@ -1,10 +1,24 @@
+# --- Libraries Used:
+# --- For-Bot-Working --------- #
+pyrogram
+#TgCrypto
+
+# --- For-YTDL. --------------- #
+youtube-search-python
+youtube-dl
+hachoir
+wget
+
+# --- Database ---------------- #
+sqlalchemy~=1.3.23
+psycopg2-binary
+feedparser
+
 aiohttp
 beautifulsoup4
 hachoir
 numpy
 Pillow
-pyrogram
 requests
 tgcrypto
-youtube-dl
 olefile
